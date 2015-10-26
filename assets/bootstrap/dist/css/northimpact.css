@@ -39,10 +39,21 @@
 	text-decoration: none;
 }
 
+#background {
+	background: #f5f5f5;
+    background-image: url("../../../imgs/northface.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
 p {
 	font-family: 'Muli', 'sans-serif';
 	color: #111111;
-	font-size: 15px;
+	font-size: 17px;
 	text-align: justify;
 }
 
@@ -92,6 +103,7 @@ h4 {
 	font-family: 'Unica One', 'serif';
 	text-align: left;
 	font-size: 20px;
+	background-color: #fafafa
 }
 
 .navbar a {
@@ -109,10 +121,13 @@ h4 {
 	padding-bottom: 50px;
 }
 
-a .arrow {
+a img {
 	padding-top: 50px;
 }
 
+.team p {
+	text-align: center;
+}
 .team-pic {
 	width:50%;
 	height:50%;
@@ -120,6 +135,16 @@ a .arrow {
 
 .services-img {
 	padding:25px;
+}
+
+.team-dsc {
+	height: 70px;
+}
+
+.bootstrap-iso {
+	padding-top: 50px; 
+	margin-left: auto;
+	margin-right: auto;
 }
 
 footer {
