@@ -25,13 +25,13 @@
 }
 
 .social {
-  padding: 7px;
+  padding: 0 4px 0 4px;
   font-size: 25px;
   color: #9d9d9d;
 }
 
 .social-btns {
-  padding-top: 15px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -66,14 +66,14 @@ h4 {
 }
 
 .wrapper {
-	width: 800px;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 #intro-text {
 	padding-top: 50px;
-	width: 420px;
+	max-width: 480px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -127,7 +127,6 @@ h4 {
 	padding-right: 20px;
 }
 
-
 #services, #team, #blog, #projects, #contactus {
 	padding-top:100px;
 	padding-bottom: 50px;
@@ -149,17 +148,23 @@ a img {
 	padding:25px;
 }
 
-.team-dsc {
-	height: 70px;
+.max-width {
+  max-width: 360px;
 }
 
 .bootstrap-iso {
-	padding-top: 50px; 
-	margin-left: auto;
-	margin-right: auto;
+  padding: 50px 20px 0 20px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 footer {
 	padding-top: 30px;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
+}
+
+.footer-text {
+  padding-right: 10px;
+  text-align: right;
+  font-size: 12px;
 }
