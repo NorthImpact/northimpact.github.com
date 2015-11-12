@@ -66,7 +66,7 @@ h4 {
 }
 
 .wrapper {
-	width: 100%;
+	max-width: 75%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -91,7 +91,7 @@ h4 {
 }
 
 .heading {
-	padding-top:15px;
+	padding-top: 15px;
 	padding-bottom: 15px;
 	font-family: 'Unica One', 'serif';
 	text-align: center;
@@ -136,6 +136,17 @@ a img {
 	padding-top: 50px;
 }
 
+.center {
+  margin: 0 auto;
+}
+
+.proj-desc {
+  max-width: 480px;
+  margin-left: auto; 
+  margin-right: auto;
+  padding-top: 20px;
+}
+
 .team p {
 	text-align: center;
 }
@@ -164,7 +175,27 @@ footer {
 }
 
 .footer-text {
-  padding-right: 10px;
+  padding-right: 40px;
   text-align: right;
   font-size: 12px;
+}
+
+/*** discover logo ***/
+.discover-logo {
+	width: 100px; 
+	height: 100px; 
+	display: inline-block; 
+	background-size: cover; 
+	border-radius: 50%;
+	-moz-border-radius: 50%; 
+	border: 2px solid #F1EED9; 
+	box-shadow: 0 0 0 3px #46433A;
+}
+
+@media (max-width: 1200px){
+
+  .wrapper{
+    max-width: 90%;
+  }
+
 }
